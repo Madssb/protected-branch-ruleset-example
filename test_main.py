@@ -2,7 +2,7 @@ from main import i_return_four
 
 
 def test_i_return_four():
-    """The test mistanenly asserts five.
+    """The test mistanenly correctly asserts four.
     """
     res = i_return_four()
-    assert res == 5
+    assert res == 4
