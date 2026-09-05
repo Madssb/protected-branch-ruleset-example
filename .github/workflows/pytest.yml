@@ -19,3 +19,8 @@ jobs:
 
       - name: Run pytest
         run: uv run pytest
+
+      - name: Check Ruff formatting
+        uses: astral-sh/ruff-action@v4.1.0
+        with:
+          args: "format --check"
