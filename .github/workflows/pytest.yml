@@ -2,7 +2,6 @@ name: Run Pytest
 
 on:
   pull_request:
-    types: [opened]
 
 permissions:
   contents: read
